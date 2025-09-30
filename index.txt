@@ -80,3 +80,40 @@ Valid subsets (product < 0):
 {-1}, {-1, 2}, {2, -3}, {-3} → total = 4.
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+Count Binary Strings with Limited Zeros After Each 1
+
+Given two integers n and k, count the number of binary strings of length n such that
+for every '1' in the string, the number of consecutive '0's that follow it (until the next '1'
+or the end of the string) is at most k.
+
+Notes
+• Leading zeros before the first '1' are unrestricted.
+• The condition is vacuously true if the string has no '1's (the all-zero string is allowed).
+• If the problem version requires “at least one ‘1’ ”, subtract 1 from the final count.
+
+Input Format
+n k
+
+Output Format
+Print a single integer: the number of valid binary strings of length n.
+
+Constraints
+• 1 ≤ n ≤ 10^6  (typical; adjust as needed)
+• 0 ≤ k ≤ n
+• Answer may be large; if required, output modulo 1,000,000,007.
+
+Example
+Input
+3 1
+Output
+7
+
+Explanation
+Valid strings (n=3, k=1):
+000, 001, 010, 011, 101, 110, 111
+(“100” is invalid because it has two zeros after a ‘1’.)
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
