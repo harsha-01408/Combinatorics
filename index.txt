@@ -164,3 +164,26 @@ Sample Output 3
 858152905
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Valid Combinations
+
+Choose a stream of data (sequence) of size A. You have B different types of integers from which you have to
+select the stream of data. You can select an integer multiple times.
+
+A valid combination is a stream of data in which there are exactly C integers that are different from the
+previous integer in the sequence.
+
+You are given integers A, B, and C. The first integer in the stream of data is not included among the C integers.
+
+Print the number of ways of selecting a valid combination modulo 998244353.
+
+Input Format (for custom testing):
+- The first line contains an integer A denoting the number of integers in the data stream.
+- The second line contains an integer B denoting the number of types of integers.
+- The third line contains an integer C denoting the number of integers that should be different from the
+  previous integer in the sequence.
+
+Output Format:
+- Print the number of ways of selecting a valid combination modulo 998244353.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
